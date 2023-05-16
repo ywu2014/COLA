@@ -107,6 +107,7 @@ public class StateMachineTest {
 
     @Test
     public void testInternalNormal() {
+        // TEST
         StateMachineBuilder<States, Events, Context> builder = StateMachineBuilderFactory.create();
         builder.internalTransition()
             .within(States.STATE1)
